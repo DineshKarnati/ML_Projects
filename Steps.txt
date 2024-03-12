@@ -1,0 +1,19 @@
+
+# Create Git Repository
+
+echo "# ML_Projects" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/DineshKarnati/ML_Projects.git
+
+# need to config git user details
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+
+# check config details
+git config --global user.email
+
+# push read me 
+
